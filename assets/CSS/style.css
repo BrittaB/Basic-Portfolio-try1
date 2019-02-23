@@ -4,8 +4,8 @@
 #About{
     Margin:left;
     padding: 20px;
-    color: rgb(96, 144, 214);
-    background: bisque;
+    color: #777777;
+    background:#4aaaa5
    
 }
 
@@ -23,4 +23,8 @@
     
 #contact{
     
+}
+#footer{
+    #666666
+
 }
