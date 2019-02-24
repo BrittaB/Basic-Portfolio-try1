@@ -1,5 +1,6 @@
 body{
-    background-image: url("./assets/images/background.png");
+    background:#ffffff;
+    background-image: url('../images/background.png');
     color: #666666;
 }
 
@@ -23,6 +24,7 @@ body{
     background: #ffffff;
     color: #777777;
 }
+/*index.html styling*/
 .main{
     width: 960px;
     border: 2px solid #77777;
@@ -58,6 +60,38 @@ body{
     background-color: #666666;
     color: white;
     text-align: center;
-   
+   }
 
-}
+
+   /*portfolio.html styling */
+.container{
+    width:960px;
+    border-radius: 5px;
+    background-color: #ffffff;
+       padding:20px;
+       float:both;
+       border:3px solid gray;
+       margin-top:50px;
+    }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  input[type=submit] {
+    background-color: #ffffff;
+    color: #fffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+ 
