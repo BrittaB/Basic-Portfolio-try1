@@ -24,7 +24,12 @@ body{
     background: #ffffff;
     color: #777777;
 }
-
+.main{
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
 #about-me{
     padding:20px;
     font-family:georgia;
