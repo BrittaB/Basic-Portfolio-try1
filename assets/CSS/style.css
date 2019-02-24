@@ -1,10 +1,12 @@
-*{
+body{
+    background-image: url("dynamic-style.png");
     background: #ffffff;
     color: #666666;
 }
+
 #name{
-    font-family: Arial;
-    size:10px;
+    font-family: Georgia;
+    size:5px;
     border-style: hidden;
    max-width: 960px;
    margin: auto;
@@ -14,6 +16,7 @@
     color:#777777;
 }
 #header-links{
+    font-family: Georgia;
     border-style: hidden;
     max-width: 960px;
     margin: auto;
@@ -21,25 +24,28 @@
     background: #ffffff;
     color: #777777;
 }
+
+#about-me{
+    padding:20px;
+    font-family:georgia;
+
+}
 #About{
+    border-bottom: 1px solid #777777;
     padding: 20px;
-    color: #4aaaa5;
-    background: #777777;
     clear: both;
     margin: 10px;
-}
-#main-content{
-    background: #ffffff;
-    color:#777777;
 }
 #photo{
     float: left;
 }
 
 #paragraph{
-  
+    font-family: Helvetica;
 }
 #footer{
+    font-family: Helvetica;
+    border-top-color:#4aaaa5;
     Padding:10px;
     position: fixed;
     left: 0;
