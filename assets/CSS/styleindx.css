@@ -2,12 +2,12 @@ body{
     background-image: url("/assets/images/tourq.jpg");
 };
 .page-footer{
-    display: flex!important;
-    min-height: 100vh!important;
-    flex-direction: column!important;
-    flex: 1 0 auto!important;
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+    flex: 1 0 auto !important;
   }
 
   main {
-    flex: 1 0 auto;
+    flex: 1 0 auto !important;
   }

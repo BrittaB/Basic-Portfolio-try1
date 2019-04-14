@@ -17,17 +17,64 @@
 <body>
   <!--Header-->
   <nav>
-    <div style="margin-bottom:10%;" class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">About</a></li>
-        <li><a href="badges.html">Portfolio</a></li>
-        <li><a href="collapsible.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!--Form-->
-  <footer style="  position: fixed; left: 0; bottom: 0; width: 100%; background-color: silver; color: darkslategray;" class="page-footer z-depth-2">
+   <div style="margin-bottom:10%; background-color: silver; color:darkslategray;" class="nav-wrapper z-depth-3">
+     <a style="color:darkslategray;" href="assets/images/favicon.jpg" class="brand-logo">Brittany Hale</a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li><a style="color:darkslategray;" href="sass.html">About</a></li>
+       <li><a style="color:darkslategray;" href="badges.html">Portfolio</a></li>
+       <li><a style="color:darkslategray;" href="collapsible.html">Contact</a></li>
+     </ul>
+   </div>
+ </nav>
+  <!--Contact Form-->
+  <div style="background-color:darkolivegreen; margin-bottom:10px; margin-top: 10px;" class="container z-depth-5">
+   <form>
+ 
+      <div class="row">
+         <form class="col s12">
+           <div class="row">
+             <div class="input-field col s6">
+               <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+               <label for="first_name">First Name</label>
+             </div>
+             <div class="input-field col s6">
+               <input id="last_name" type="text" class="validate">
+               <label for="last_name">Last Name</label>
+             </div>
+           </div>
+           <div class="row">
+             <div class="input-field col s12">
+               <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+               <label for="disabled">Disabled</label>
+             </div>
+           </div>
+           <div class="row">
+             <div class="input-field col s12">
+               <input id="password" type="password" class="validate">
+               <label for="password">Password</label>
+             </div>
+           </div>
+           <div class="row">
+             <div class="input-field col s12">
+               <input id="email" type="email" class="validate">
+               <label for="email">Email</label>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col s12">
+               This is an inline input field:
+               <div class="input-field inline">
+                 <input id="email_inline" type="email" class="validate">
+                 <label for="email_inline">Email</label>
+                 <span style="margin-bottom: 10px;" class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+               </div>
+             </div>
+           </div>
+         </form>
+       </div>
+    </form></div>
+ <!--footer-->
+  <footer style="  position: fixed; left: 0; bottom: 0; width: 100%;  background-color: silver; color: darkslategray;" class="page-footer z-depth-2">
    <div style="color:darkslategray;" class="footer-copyright">
        © 2019 Copyright Text
    </div>
