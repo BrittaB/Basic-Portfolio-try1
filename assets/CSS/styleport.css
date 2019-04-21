@@ -12,6 +12,6 @@ body{
     flex: 1 0 auto !important;
   }
   img {
-    width: 320px !important;
+    width: 100% !important;
     height: 250px !important;
 }
