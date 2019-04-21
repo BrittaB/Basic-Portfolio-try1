@@ -11,3 +11,7 @@ body{
   main {
     flex: 1 0 auto !important;
   }
+  img {
+    width: 320px !important;
+    height: 250px !important;
+}
