@@ -1,5 +1,5 @@
 body{
-    background-image: url("/assets/images/tourqm.jpg");
+    background-image: url("../images/tourqm.jpg");
 };
 .page-footer{
     display: flex !important;
